@@ -1,5 +1,5 @@
 # guacamole-telemirror
-An extension for Apache Guacamole that renders the desktop as a mirror image for teleprompters.
+An extension for [Apache Guacamole](https://guacamole.apache.org) that renders the desktop as a mirror image for teleprompters.
 
 ## Usage
 You can invoke mirroring by either appending ?mirror=true to the URL or by naming your specific connection entry with `_mirror` in the title. 
