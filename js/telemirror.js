@@ -1,1 +1,1 @@
-console.log("Welcome from telemirror");
+console.log("Hello from telemirror");
