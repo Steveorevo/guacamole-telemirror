@@ -12,3 +12,5 @@ zip -r ../telemirror.zip *
 cd ..
 rm -rf ./telemirror.jar
 mv telemirror.zip telemirror.jar
+cp ./telemirror.jar /etc/guacamole/extensions/
+systemctl restart tomcat9
