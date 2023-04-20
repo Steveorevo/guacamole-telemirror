@@ -3,7 +3,7 @@
 rm -rf ./telemirror.jar
 rm ./telemirror.zip
 mkdir ./telemirror.jar
-cp ./guac-manifest.json ./telemirror.jar/manifest.json
+cp ./guac-manifest.json ./telemirror.jar/guac-manifest.json
 cp ./LICENSE ./telemirror.jar/LICENSE
 cp ./README.md ./telemirror.jar/README.md
 cp -r ./js ./telemirror.jar/js
