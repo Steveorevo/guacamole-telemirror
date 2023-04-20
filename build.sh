@@ -7,6 +7,8 @@ cp ./guac-manifest.json ./telemirror.jar/manifest.json
 cp ./LICENSE ./telemirror.jar/LICENSE
 cp ./README.md ./telemirror.jar/README.md
 cp -r ./js ./telemirror.jar/js
-zip -r telemirror.zip telemirror.jar
+cd ./telemirror.jar
+zip -r ../telemirror.zip *
+cd ..
 rm -rf ./telemirror.jar
 mv telemirror.zip telemirror.jar
