@@ -1,0 +1,10 @@
+{
+
+    "guacamoleVersion" : "*",
+    "name" : "telemirror",
+    "namespace" : "telemirror",
+    "js": [
+        "js/telemirror.js"
+    ]
+}
+
