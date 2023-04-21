@@ -2,7 +2,7 @@
 An extension for [Apache Guacamole](https://guacamole.apache.org) that renders the desktop as a mirror image for teleprompters.
 
 ## Usage
-You can invoke mirroring by either appending ?mirror=true to the URL or by naming your specific connection entry with `_mirror` in the title. 
+You can invoke mirroring by either appending ?mirror=true to the URL or by naming your specific connection entry with `_mirror` at the end of the title. 
 
 The Telemirror plugin will poll the display every 5 seconds for the value and if mirror=true (or the title ends with _mirror), then the display will be flipped. 
 
